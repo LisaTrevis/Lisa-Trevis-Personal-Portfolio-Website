@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'loveloline_bold';
-  src: url("../fonts/lovelo_line_bold-webfont.eot");
-  src: url("../fonts/lovelo_line_bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lovelo_line_bold-webfont.woff2") format("woff2"), url("../fonts/lovelo_line_bold-webfont.woff") format("woff"), url("../fonts/lovelo_line_bold-webfont.ttf") format("truetype"), url("../fonts/lovelo_line_bold-webfont.svg#loveloline_bold") format("svg");
+  font-family: 'BERNIERRegular-regular';
+  src: url("../fonts/BERNIERRegular-Regular.otf");
+  src: url("../fonts/BERNIERRegular-Regular.otf?#iefix") format("embedded-opentype"), url("../fonts/BERNIERRegular-Regular.otf") format("otf"), url("../fonts/BERNIERRegular-Regular.otf") format("otf"), url("../fonts/BERNIERRegular-Regular.otf") format("truetype"), url("../fonts/BERNIERRegular-Regular.otf") format("otf");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +16,7 @@ body {
 
 h1 {
   margin: 0 0 30px;
-  font: 6.42857em / 1 loveloline_bold;
+  font: 6.42857em / 1 BERNIERRegular-regular;
   letter-spacing: 5px;
   text-transform: uppercase;
 }
@@ -37,7 +37,7 @@ h1 b {
 
 h2 {
   margin: 0 0 30px;
-  font: 4.28571em / 1.2 loveloline_bold;
+  font: 4.28571em / 1.2 BERNIERRegular-regular;
   letter-spacing: 10px;
   text-transform: uppercase;
 }
@@ -2624,6 +2624,7 @@ form .message {
 .no-csstransitions .animated-letters .is-visible i {
   opacity: 1;
 }
+
 
 @media (max-width: 1200px) {
   .container {
