@@ -1602,7 +1602,7 @@ html[style*='margin-right'] .main-nav {
   border-left: none;
   border-right: none;
   color: #008515;
-  transition: 1s;
+  transition: 3s;
 }
 
 .bars .bars-item .bars-item-progress:before, .bars .bars-item .bars-item-progress:after,
@@ -2625,6 +2625,15 @@ form .message {
   opacity: 1;
 }
 
+#contacts h2 {
+  color: #000000;
+}
+
+#contacts p {
+  text-align: center;
+  color: #000000;
+  font-size: 30px;
+}
 
 @media (max-width: 1200px) {
   .container {
