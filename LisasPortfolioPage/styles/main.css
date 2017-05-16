@@ -2249,7 +2249,7 @@ form .message {
   margin: 0 0 0 30px;
 }
 
-.pricing {
+/*.pricing {
   text-align: center;
   margin: 0 0 50px;
   padding: 30px;
@@ -2324,7 +2324,7 @@ form .message {
 .pricing-list .pricing-list-item-heading .pricing-list-item-value {
   font-weight: bold;
   font-size: 1.1428571429em;
-}
+}*/
 
 .profile {
   text-align: center;
@@ -2852,11 +2852,15 @@ form .message {
   #contacts .section-inner .container .heading .separator {
     margin-bottom: 30px;
   }
-  .pricing.content-box-dark {
+  #intro .bg {
+  background-image: none;
+  background-color: #45AEBD;
+}
+/*  .pricing.content-box-dark {
     -webkit-transform: scale(1);
         -ms-transform: scale(1);
             transform: scale(1);
-  }
+  }*/
 }
 
 @-webkit-keyframes letters-in {
