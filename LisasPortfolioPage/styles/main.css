@@ -2734,6 +2734,7 @@ form .message {
   }
   .container .intro {
     width: auto;
+    margin-top: 0;
   }
   .row .col {
     float: none;
@@ -2855,7 +2856,8 @@ form .message {
   #intro .bg {
   background-image: none;
   background-color: #45AEBD;
-}
+  }
+
 /*  .pricing.content-box-dark {
     -webkit-transform: scale(1);
         -ms-transform: scale(1);
